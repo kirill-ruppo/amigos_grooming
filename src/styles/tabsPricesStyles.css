@@ -1,0 +1,16 @@
+.active{
+    border:2px solid red
+}
+
+.second .active{
+    border: 2px solid blue
+}
+
+.list-item {
+    cursor: pointer;
+  }
+.list-item.active {
+    border: 2px solid #000000;
+    background:#FEFAE0;
+    border-bottom: 0;
+}

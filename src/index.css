@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #FEFAE0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"),
+   url("./fonts/Rubik-Regular.ttf") format("truetype");
+  
+}
+@font-face {
+  font-family: "OksFree";
+  src: local("OksFree"),
+   url("./fonts/Oks-Free.ttf") format("truetype");
+  
+}
+
+
+.brightLink {
+  color:#FEFAE0;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.brightLink:link {
+  color: #FEFAE0;
+}
+
+.brightLink:visited {
+  color: #FEFAE0;
+}
+
+.brightLink:focus {
+  border-bottom: 1px solid;
+  
+}
+
+.brightLink:hover {
+  border-bottom: 1px solid;
+}
+
+
+.blackLink {
+  color:#000000;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.blackLink:link {
+  color: #000000;
+}
+
+.blackLink:visited {
+  color: #000000;
+}
+
+.blackLink:focus {
+  border-bottom: 1px solid;
+  
+}
+
+.blackLink:hover {
+  border-bottom: 1px solid;
+}
+
+
+button#mui-p-22041-T-1{
+  color:#000000;
+}
+button#mui-p-22041-T-2{
+  color:#000000;
 }
